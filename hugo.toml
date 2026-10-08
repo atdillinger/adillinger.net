@@ -1,0 +1,38 @@
+title = 'Austin Dillinger'
+baseURL = 'adillinger.net'
+theme = "paper"
+languageCode = 'en-us'
+
+[params]
+  color = 'linen'
+
+  # header social icons
+  github = 'atdillinger'
+  # linkedin = 'YOUR_LINKEDIN_ID'
+  # bluesky = 'YOUR_BLUESKY_ID'
+
+  # home page profile
+  avatar = "https://avatars.githubusercontent.com/u/25270847"                 # gravatar email or image url
+  name = 'Austin'
+  # bio = 'TODO'
+
+# [menu]
+#   [[menu.main]]
+#     identifier = "about"
+#     name = "About"
+#     url = "/about/"
+#     weight = 10
+#   [[menu.main]]
+#     identifier = "contact"
+#     name = "Contact"
+#     url = "/contact/"
+#     weight = 10
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+[privacy]
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
